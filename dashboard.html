@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <h2>TaskFlow</h2>
+
+        <ul>
+            <li><i class="fa-solid fa-house"></i> Dashboard</li>
+            <li><i class="fa-solid fa-users"></i> Employees</li>
+            <li><i class="fa-solid fa-list-check"></i> Tasks</li>
+            <li><i class="fa-solid fa-chart-line"></i> Performance</li>
+            <li><i class="fa-solid fa-user"></i> Profile</li>
+            <li><i class="fa-solid fa-gear"></i> Settings</li>
+            <li><i class="fa-solid fa-right-from-bracket"></i> Logout</li>
+        </ul>
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+
+        <!-- Top Bar -->
+        <div class="topbar">
+
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search employees or tasks...">
+            </div>
+
+            <div class="admin">
+                <i class="fa-solid fa-bell"></i>
+                <img src="https://i.pravatar.cc/45" alt="Admin">
+            </div>
+
+        </div>
+
+        <!-- Welcome Card -->
+        <div class="welcome">
+
+            <div>
+                <h1>Good Morning, Admin 👋</h1>
+                <p>Welcome back to TaskFlow. Have a productive day!</p>
+            </div>
+
+            <div class="date">
+                <h3>04 July 2026</h3>
+            </div>
+
+        </div>
+
+        <!-- Cards -->
+        <div class="cards">
+
+            <div class="card blue">
+                <i class="fa-solid fa-users"></i>
+                <h3>Total Employees</h3>
+                <h2>120</h2>
+            </div>
+
+            <div class="card orange">
+                <i class="fa-solid fa-list-check"></i>
+                <h3>Total Tasks</h3>
+                <h2>350</h2>
+            </div>
+
+            <div class="card green">
+                <i class="fa-solid fa-circle-check"></i>
+                <h3>Completed</h3>
+                <h2>290</h2>
+            </div>
+
+            <div class="card red">
+                <i class="fa-solid fa-hourglass-half"></i>
+                <h3>Pending</h3>
+                <h2>60</h2>
+            </div>
+
+        </div>
+
+        <!-- Progress -->
+        <div class="progress-card">
+
+            <h3>Overall Project Progress</h3>
+
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+
+            <p>82% Completed</p>
+
+        </div>
+
+        <!-- Recent Tasks -->
+        <div class="recent">
+
+            <h2>Recent Tasks</h2>
+
+            <table>
+
+                <tr>
+                    <th>Employee</th>
+                    <th>Task</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>Janani</td>
+                    <td>Design Dashboard</td>
+                    <td><span class="completed">Completed</span></td>
+                </tr>
+
+                <tr>
+                    <td>Rahul</td>
+                    <td>Create Login Page</td>
+                    <td><span class="pending">Pending</span></td>
+                </tr>
+
+                <tr>
+                    <td>Priya</td>
+                    <td>Testing</td>
+                    <td><span class="progress">In Progress</span></td>
+                </tr>
+
+            </table>
+
+        </div>
+
+        <!-- Statistics -->
+        <div class="stats">
+
+            <div class="box">
+                <h3>Attendance</h3>
+                <h2>95%</h2>
+            </div>
+
+            <div class="box">
+                <h3>Task Efficiency</h3>
+                <h2>89%</h2>
+            </div>
+
+            <div class="box">
+                <h3>Monthly Performance</h3>
+                <h2>91%</h2>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
